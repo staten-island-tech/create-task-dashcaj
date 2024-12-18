@@ -11,3 +11,27 @@ html, body, *{
     --tertiarylight: #eeab14;
     --fontlight: #720605;
   }
+
+.title{
+    margin: 1.5rem;
+  font-size: 5rem;
+  text-align: center;
+  color: var(--fontlight);
+}
+
+.user{
+  margin: 1.5rem;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.createrec{
+    border: 3px solid var(--secondarylight);
+    border-radius: 3px;
+    margin: 3.5rem auto;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--primarylight);
+    color: var(--fontlight);
+}
