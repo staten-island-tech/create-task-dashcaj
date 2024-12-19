@@ -3,12 +3,14 @@ html, body, *{
     padding: 0;
     box-sizing: border-box;
     font-size: 62.5%;
+    background-color: var(--fourlight);
 }
 
 :root{
     --primarylight: #fffad3;  
     --secondarylight: #c44437;
     --tertiarylight: #eeab14;
+    --fourlight: #ffc27c;
     --fontlight: #720605;
   }
 
@@ -27,11 +29,22 @@ html, body, *{
 
 .createrec{
     border: 3px solid var(--secondarylight);
-    border-radius: 3px;
+    border-radius: 3rem;
     margin: 3.5rem auto;
     font-size: 2rem;
     text-align: center;
     padding: 1rem;
     background-color: var(--primarylight);
     color: var(--fontlight);
+}
+
+.header{
+  background-color: var(--fourlight);
+  border: 4px solid var(--secondarylight);
+  margin: 2rem;
+  border-radius: 1.5rem;
+}
+
+.create{
+  text-align: center;
 }
