@@ -1,22 +1,57 @@
-html, body, *{
+html, *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 62.5%;
+    font-family: "Quicksand", serif;
+}
+
+body{
+  background-color: var(--background);
 }
 
 :root{
-    --primarylight: #fffad3;  
-    --secondarylight: #c44437;
-    --tertiarylight: #eeab14;
-    --fourlight: #ffc27c;
-    --fontlight: #720605;
+--background: #d0d7d7;
+--2background: #67809e;
+--buttons: #315684;
+--font: #27314e;
   }
 
-.title{
+
+.header{
+  margin: 4rem auto;
   text-align: center;
+  font-size: 3rem;
 }
 
+.title{
+  margin: 2rem auto;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.q1{
+  text-align: center;
+  font-size: 2rem;
+}
+
+.q2{
+  text-align: center;
+  font-size: 2rem;
+}
+.q3{
+  text-align: center;
+  font-size: 2rem;
+}
+.q4{
+  text-align: center;
+  font-size: 2rem;
+}
+
+.q5{
+  text-align: center;
+  font-size: 2rem;
+}
 
 
 
