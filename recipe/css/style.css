@@ -16,6 +16,7 @@ body{
 --3background: #6c85a1;
 --buttons: #436794;
 --font: #e9e9e9;
+--font2: #273a77;
   }
 
 
@@ -36,16 +37,21 @@ body{
   margin: 2rem;
   background-color: var(--buttons);
   color: var(--font);
+  border-radius: 5px;
+  border: 3px solid var(--3background);
 }
 
-
+.q{
+  color: #273a77;
+}
 
 .q1{
   margin: 4rem auto;
   text-align: center;
   font-size: 5rem;
-  border: 3px solid var(--3background);
+  border-radius: 4px;
   background-color: var(--2background);
+  border: 3px solid var(--3background);
   padding: 2.5rem;
   width: 40vw;
 }
@@ -54,45 +60,42 @@ body{
   margin: 4rem auto;
   text-align: center;
   font-size: 5rem;
-  border: 3px solid var(--3background);
+  border-radius: 4px;
   background-color: var(--2background);
-
+  border: 3px solid var(--3background);
   padding: 2.5rem;
   width: 40vw;
-
 }
 .q3{
   margin: 4rem auto;
   text-align: center;
   font-size: 5rem;
-  border: 3px solid var(--3background);
+  border-radius: 4px;
   background-color: var(--2background);
-
+  border: 3px solid var(--3background);
   padding: 2.5rem;
   width: 40vw;
-
 }
 .q4{
   margin: 4rem auto;
   text-align: center;
   font-size: 5rem;
-  border: 3px solid var(--3background);
+  border-radius: 4px;
   background-color: var(--2background);
-
+  border: 3px solid var(--3background);
   padding: 2.5rem;
   width: 40vw;
-
 }
 
 .q5{
   margin: 4rem auto;
   text-align: center;
   font-size: 5rem;
-  border: 3px solid var(--3background);
+  border-radius: 4px;
   background-color: var(--2background);
+  border: 3px solid var(--3background);
   padding: 2.5rem;
   width: 40vw;
-
 }
 
 
