@@ -83,27 +83,8 @@ body{
   padding: 2.5rem;
   width: 40vw;
 }
-.q4{
-  margin: 4rem auto;
-  text-align: center;
-  font-size: 5rem;
-  border-radius: 4px;
-  background-color: var(--2background);
-  border: 3px solid var(--3background);
-  padding: 2.5rem;
-  width: 40vw;
-}
 
-.q5{
-  margin: 4rem auto;
-  text-align: center;
-  font-size: 5rem;
-  border-radius: 4px;
-  background-color: var(--2background);
-  border: 3px solid var(--3background);
-  padding: 2.5rem;
-  width: 40vw;
-}
+
 
 .submitbtn{
   font-size: 3rem  ;
