@@ -5,7 +5,7 @@ import '/css/style.css'
 //get the points from each question
 //for a certain point range, insert html when click submit
 
-const button = document.querySelector(".button")
+const buttonlist = document.querySelectorAll(".button")
 const submit = document.querySelector(".submitbtn")
 const area = document.querySelector(".results")
 let score = 0
@@ -15,7 +15,7 @@ function pointhandler(points){
     return score
 }
 
-button.forEach((btn) => {
+buttonlist.forEach((btn) => {
     btn.addEventListener("submit", function(event){
         event.preventDefault();
         const points = parseInt(button.value);
@@ -25,8 +25,10 @@ button.forEach((btn) => {
 })
 
 submit.addEventListener("submit", function(event){
-    const html = ``
-    area.insertAdjacentHTML("beforeend", html)
+    event.preventDefault();
+    const html = `<h2 class="resulttitle">Ur style is nice!</h2>
+        <h4 class="pointdisplay">points: 5</h4>`
+    area.insertAdjacentHTML("beforeend", html);
 })
 
 
